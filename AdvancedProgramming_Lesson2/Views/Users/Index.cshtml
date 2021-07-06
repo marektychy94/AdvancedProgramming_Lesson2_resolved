@@ -6,28 +6,28 @@
 @inject IHtmlLocalizer<SharedResource> SharedLocalizer
 @{ ViewData["Title"] = @SharedLocalizer["Users"]; }
 
-<h1>>@SharedLocalizer["Users"]</h1>
+<h1>@SharedLocalizer["Users"]</h1>
 
 <p>
-    <a asp-action="Create">>@SharedLocalizer["Create new record"]</a>
+    <a asp-action="Create">@SharedLocalizer["Create new record"]</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                >@SharedLocalizer["Pseudo"]
+                @SharedLocalizer["Pseudo"]
             </th>
             <th>
-                >@SharedLocalizer["Name"]
+                @SharedLocalizer["Name"]
             </th>
             <th>
-                >@SharedLocalizer["Register date"]
+                @SharedLocalizer["Register date"]
             </th>
             <th>
-                >@SharedLocalizer["Mail"]
+                @SharedLocalizer["Mail"]
             </th>
             <th>
-                >@SharedLocalizer["Age"]
+                @SharedLocalizer["Age"]
             </th>
             <th></th>
         </tr>
@@ -52,9 +52,9 @@
         @Html.DisplayFor(modelItem => item.Age)
     </td>
     <td>
-        <a asp-action="Edit" asp-route-id="@item.Id">>@SharedLocalizer["Edit"]</a> |
-        <a asp-action="Details" asp-route-id="@item.Id">>@SharedLocalizer["Detils"]</a> |
-        <a asp-action="Delete" asp-route-id="@item.Id">>@SharedLocalizer["Delete"]</a>
+        <a asp-action="Edit" asp-route-id="@item.Id">@SharedLocalizer["Edit"]</a> |
+        <a asp-action="Details" asp-route-id="@item.Id">@SharedLocalizer["Details"]</a> |
+        <a asp-action="Delete" asp-route-id="@item.Id">@SharedLocalizer["Delete"]</a>
     </td>
 </tr>}
     </tbody>

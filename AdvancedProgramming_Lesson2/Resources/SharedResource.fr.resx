@@ -120,6 +120,12 @@
   <data name="About" xml:space="preserve">
     <value>À propos</value>
   </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Âge</value>
+  </data>
   <data name="Are you sure abou that?" xml:space="preserve">
     <value>Êtes-vous sûr de cela?</value>
   </data>
@@ -129,14 +135,44 @@
   <data name="Create" xml:space="preserve">
     <value>Créer</value>
   </data>
+  <data name="Create device" xml:space="preserve">
+    <value>Créer un appareil</value>
+  </data>
   <data name="Create new record" xml:space="preserve">
     <value>Créer un nouvel enregistrement</value>
+  </data>
+  <data name="Create User" xml:space="preserve">
+    <value>Créer un utilisateur</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Effacer</value>
   </data>
+  <data name="Delete device" xml:space="preserve">
+    <value>Supprimer l'appareil</value>
+  </data>
+  <data name="Delete User" xml:space="preserve">
+    <value>Supprimer l'utilisateur</value>
+  </data>
+  <data name="Deleting..." xml:space="preserve">
+    <value>Suppression...</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Des détails</value>
+  </data>
+  <data name="Device details" xml:space="preserve">
+    <value>Détails de l'appareil</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Dispositifs</value>
+  </data>
+  <data name="Devices base" xml:space="preserve">
+    <value>Base d'appareils</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>Éditer</value>
+  </data>
+  <data name="Edit device" xml:space="preserve">
+    <value>Modifier l'appareil</value>
   </data>
   <data name="For expand this excersise we add another translations. Default Polish, English, German and additional language: Italian, Spanish and French" xml:space="preserve">
     <value>Pour développer cet exercice, nous ajoutons une autre traduction. Polonais, anglais, allemand et langue supplémentaire par défaut : italien, espagnol et français</value>
@@ -151,16 +187,19 @@
     <value>Identifiant</value>
   </data>
   <data name="Learn End" xml:space="preserve">
-    <value>à propos de la création d'applications principales mvc .net</value>
+    <value>à propos de la création d'applications mvc .net de base</value>
   </data>
   <data name="Learn Start" xml:space="preserve">
-    <value>Apprendre</value>
+    <value>Apprendre Commencer</value>
   </data>
-  <data name="Movie" xml:space="preserve">
-    <value>Film</value>
+  <data name="Mail" xml:space="preserve">
+    <value>Poster</value>
   </data>
-  <data name="Movies" xml:space="preserve">
-    <value>Films</value>
+  <data name="Model" xml:space="preserve">
+    <value>Modèle</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
   </data>
   <data name="Price" xml:space="preserve">
     <value>Prix</value>
@@ -172,16 +211,37 @@
     <value>Politique de confidentialité</value>
   </data>
   <data name="Privacy Policy Content" xml:space="preserve">
-    <value>C'est un secret</value>
+    <value>Contenu de la politique de confidentialité</value>
+  </data>
+  <data name="Producer" xml:space="preserve">
+    <value>Producteur</value>
   </data>
   <data name="Program example for students" xml:space="preserve">
     <value>Exemple de programme pour les étudiants</value>
   </data>
-  <data name="Release date" xml:space="preserve">
-    <value>Date de sortie</value>
+  <data name="Pseudo" xml:space="preserve">
+    <value>Pseudonyme</value>
   </data>
-  <data name="Title" xml:space="preserve">
-    <value>Titre</value>
+  <data name="Register date" xml:space="preserve">
+    <value>Date d'inscription</value>
+  </data>
+  <data name="Reliable user" xml:space="preserve">
+    <value>Utilisateur fiable</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Soumettre</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>ticket</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Taper</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utilisateurs</value>
   </data>
   <data name="We are students: Marek, Asia and Patrycja" xml:space="preserve">
     <value>Nous sommes étudiants : Marek, Asia et Patrycja</value>

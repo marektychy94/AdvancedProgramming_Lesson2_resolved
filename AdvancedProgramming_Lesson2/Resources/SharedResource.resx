@@ -156,6 +156,9 @@
   <data name="Deleting..." xml:space="preserve">
     <value>Deleting...</value>
   </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
   <data name="Device details" xml:space="preserve">
     <value>Device details</value>
   </data>
@@ -219,7 +222,7 @@
   <data name="Pseudo" xml:space="preserve">
     <value>Pseudo</value>
   </data>
-  <data name="Regster date" xml:space="preserve">
+  <data name="Register date" xml:space="preserve">
     <value>Register date</value>
   </data>
   <data name="Reliable user" xml:space="preserve">

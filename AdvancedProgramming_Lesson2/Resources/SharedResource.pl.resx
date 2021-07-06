@@ -118,25 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>O mnie</value>
+    <value>O nas</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Wiek</value>
   </data>
   <data name="Are you sure abou that?" xml:space="preserve">
-    <value>Jeteś tego pewny/a?</value>
+    <value>Czy jesteś pewny/a?</value>
   </data>
   <data name="Back to the list" xml:space="preserve">
     <value>Powrót do listy</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>Utwórz</value>
+    <value>Stwórz</value>
+  </data>
+  <data name="Create device" xml:space="preserve">
+    <value>Stwórz urządzenie</value>
   </data>
   <data name="Create new record" xml:space="preserve">
-    <value>Utwórz nowy rekord</value>
+    <value>Stwórz nowy rekord</value>
+  </data>
+  <data name="Create User" xml:space="preserve">
+    <value>Stwórz użytkownika</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Usuń</value>
   </data>
+  <data name="Delete device" xml:space="preserve">
+    <value>Usuń urządzenie</value>
+  </data>
+  <data name="Delete User" xml:space="preserve">
+    <value>Usuń użytkownika</value>
+  </data>
+  <data name="Deleting..." xml:space="preserve">
+    <value>Usuwanie...</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Szczegóły</value>
+  </data>
+  <data name="Device details" xml:space="preserve">
+    <value>Szczegóły urządzenia</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Urządzenia</value>
+  </data>
+  <data name="Devices base" xml:space="preserve">
+    <value>Baza danych urządzeń</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>Edytuj</value>
+  </data>
+  <data name="Edit device" xml:space="preserve">
+    <value>Edytuj urządzenie</value>
   </data>
   <data name="For expand this excersise we add another translations. Default Polish, English, German and additional language: Italian, Spanish and French" xml:space="preserve">
     <value>W celu rozszerzenia tego ćwiczenia dodajemy kolejne tłumaczenia. Domyślny język polski, angielski, niemiecki oraz dodatkowy język: włoski, hiszpański i francuski</value>
@@ -148,19 +184,22 @@
     <value>Start</value>
   </data>
   <data name="Id" xml:space="preserve">
-    <value>Indetyfikator</value>
+    <value>Identyfikator</value>
   </data>
   <data name="Learn End" xml:space="preserve">
-    <value>tworzeniu aplikacji asp.net core mvc </value>
+    <value>o tworzeniu podstawowych aplikacji mvc .net</value>
   </data>
   <data name="Learn Start" xml:space="preserve">
-    <value>Naucz się </value>
+    <value>Uczyć się</value>
   </data>
-  <data name="Movie" xml:space="preserve">
-    <value>Film</value>
+  <data name="Mail" xml:space="preserve">
+    <value>Mail</value>
   </data>
-  <data name="Movies" xml:space="preserve">
-    <value>Filmy</value>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Imię</value>
   </data>
   <data name="Price" xml:space="preserve">
     <value>Cena</value>
@@ -169,24 +208,45 @@
     <value>Prywatność</value>
   </data>
   <data name="Privacy Policy" xml:space="preserve">
-    <value>Polityka Prywatności</value>
+    <value>Polityka prywatności</value>
   </data>
   <data name="Privacy Policy Content" xml:space="preserve">
     <value>To jest sekret</value>
   </data>
+  <data name="Producer" xml:space="preserve">
+    <value>Producent</value>
+  </data>
   <data name="Program example for students" xml:space="preserve">
     <value>Przykładowy program dla studentów</value>
   </data>
-  <data name="Release date" xml:space="preserve">
-    <value>Data wydania</value>
+  <data name="Pseudo" xml:space="preserve">
+    <value>Pseudonim</value>
   </data>
-  <data name="Title" xml:space="preserve">
-    <value>Tytuł</value>
+  <data name="Register date" xml:space="preserve">
+    <value>Data utworzenia</value>
+  </data>
+  <data name="Reliable user" xml:space="preserve">
+    <value>Użytkownik odpowiedzialny</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Wyślij</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Zgłoszenie</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Użytkownik</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Użytkownicy</value>
   </data>
   <data name="We are students: Marek, Asia and Patrycja" xml:space="preserve">
-    <value>Jesteśmy studentami: Marek Asia i Patrycja</value>
+    <value>Jesteśmy studentami: Marek, Asia i Patrycja</value>
   </data>
   <data name="We try learn about Advanced Programming at WSB Chorzów" xml:space="preserve">
-    <value>Próbujemy nauczyć się Zaawansowanego Programowania na WSB w Chorzowie</value>
+    <value>Staramy się uczyć o Programowaniu Zaawansowanym w WSB Chorzów</value>
   </data>
 </root>

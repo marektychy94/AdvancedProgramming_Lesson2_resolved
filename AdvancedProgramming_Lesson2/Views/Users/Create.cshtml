@@ -15,27 +15,27 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Pseudo" class="control-label"></label>
+                <label class="control-label">@SharedLocalizer["Pseudo"]</label>
                 <input asp-for="Pseudo" class="form-control" />
                 <span asp-validation-for="Pseudo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
+                <label class="control-label">@SharedLocalizer["Name"]</label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="RegisterDate" class="control-label"></label>
+                <label class="control-label">@SharedLocalizer["Register date"]</label>
                 <input asp-for="RegisterDate" class="form-control" />
                 <span asp-validation-for="RegisterDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Mail" class="control-label"></label>
+                <label class="control-label">@SharedLocalizer["Mail"]</label>
                 <input asp-for="Mail" class="form-control" />
                 <span asp-validation-for="Mail" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Age" class="control-label"></label>
+                <label class="control-label">@SharedLocalizer["Age"]</label>
                 <input asp-for="Age" class="form-control" />
                 <span asp-validation-for="Age" class="text-danger"></span>
             </div>
