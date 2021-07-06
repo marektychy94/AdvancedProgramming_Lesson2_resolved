@@ -21,5 +21,7 @@ namespace AdvancedProgramming_Lesson2.Models
         public string Mail { get; set; }
         [Display(Name = "Age")]
         public int Age { get; set; }
+        [Display(Name = "Phone")]
+        public int PhoneNumber { get; set; }
     }
 }

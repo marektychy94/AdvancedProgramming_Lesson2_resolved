@@ -79,6 +79,24 @@ namespace AdvancedProgramming_Lesson2.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Added 2 more columns - one for devices and one for users and implements at GUI.
+        /// </summary>
+        internal static string Added_2_more_columns___one_for_devices_and_one_for_users_and_implements_at_GUI {
+            get {
+                return ResourceManager.GetString("Added 2 more columns - one for devices and one for users and implements at GUI", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Added Error handling.
+        /// </summary>
+        internal static string Added_Error_handling {
+            get {
+                return ResourceManager.GetString("Added Error handling", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Age.
         /// </summary>
         internal static string Age {
@@ -102,6 +120,15 @@ namespace AdvancedProgramming_Lesson2.Resources {
         internal static string Back_to_the_list {
             get {
                 return ResourceManager.GetString("Back to the list", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Comments.
+        /// </summary>
+        internal static string Comments {
+            get {
+                return ResourceManager.GetString("Comments", resourceCulture);
             }
         }
         
@@ -310,6 +337,15 @@ namespace AdvancedProgramming_Lesson2.Resources {
         internal static string Name {
             get {
                 return ResourceManager.GetString("Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone.
+        /// </summary>
+        internal static string Phone {
+            get {
+                return ResourceManager.GetString("Phone", resourceCulture);
             }
         }
         

@@ -32,36 +32,42 @@
             <th>
                 @SharedLocalizer["Ticket"]
             </th>
+            <th>
+                @SharedLocalizer["Comments"]
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.Type)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Producer)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Model)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.ReliableUser)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Price)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Ticket)
-    </td>
-    <td>
-        <a asp-action="Edit" asp-route-id="@item.ID">@SharedLocalizer["Edit"]</a> |
-        <a asp-action="Details" asp-route-id="@item.ID">@SharedLocalizer["Details"]</a> |
-        <a asp-action="Delete" asp-route-id="@item.ID">@SharedLocalizer["Delete"]</a>
-    </td>
-</tr>}
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Producer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReliableUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ticket)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">@SharedLocalizer["Edit"]</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">@SharedLocalizer["Details"]</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">@SharedLocalizer["Delete"]</a>
+            </td>
+        </tr>}
     </tbody>
 </table>

@@ -35,6 +35,9 @@ namespace AdvancedProgramming_Lesson2.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PhoneNumber")
+                        .HasColumnType("int");
+
                     b.Property<string>("Pseudo")
                         .HasColumnType("nvarchar(max)");
 

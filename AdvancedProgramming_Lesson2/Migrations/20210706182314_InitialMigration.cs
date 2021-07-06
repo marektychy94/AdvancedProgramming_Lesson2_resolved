@@ -17,7 +17,8 @@ namespace AdvancedProgramming_Lesson2.Migrations
                     Name = table.Column<string>(nullable: true),
                     RegisterDate = table.Column<DateTime>(nullable: false),
                     Mail = table.Column<string>(nullable: true),
-                    Age = table.Column<int>(nullable: false)
+                    Age = table.Column<int>(nullable: false),
+                    PhoneNumber = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

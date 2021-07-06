@@ -16,8 +16,9 @@ namespace AdvancedProgramming_Lesson2.Migrations.Devices
                     Producer = table.Column<string>(nullable: true),
                     Model = table.Column<string>(nullable: true),
                     ReliableUser = table.Column<string>(nullable: true),
-                    Price = table.Column<decimal>(nullable: false),
-                    Ticket = table.Column<int>(nullable: false)
+                    Price = table.Column<double>(nullable: false),
+                    Ticket = table.Column<int>(nullable: false),
+                    Comments = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AdvancedProgramming_Lesson2.Migrations
 {
     [DbContext(typeof(UsersContext))]
-    [Migration("20210706135210_InitialMigration")]
+    [Migration("20210706182314_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,6 +36,9 @@ namespace AdvancedProgramming_Lesson2.Migrations
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PhoneNumber")
+                        .HasColumnType("int");
 
                     b.Property<string>("Pseudo")
                         .HasColumnType("nvarchar(max)");

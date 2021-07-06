@@ -123,6 +123,12 @@
   <data name="Add" xml:space="preserve">
     <value>Dodaj</value>
   </data>
+  <data name="Added 2 more columns - one for devices and one for users and implements at GUI" xml:space="preserve">
+    <value>Dodano 2 kolumy - jedną dla urządzeń i jedną dla użytkowników, </value>
+  </data>
+  <data name="Added Error handling" xml:space="preserve">
+    <value>Dodano obsługę błędów</value>
+  </data>
   <data name="Age" xml:space="preserve">
     <value>Wiek</value>
   </data>

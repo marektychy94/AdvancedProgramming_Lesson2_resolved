@@ -21,5 +21,7 @@ namespace AdvancedProgramming_Lesson2.Models
         public double Price { get; set; }
         [Display(Name = "Ticket")]
         public int Ticket { get; set; }
+        [Display(Name = "Comments")]
+        public string Comments { get; set; }
     }
 }

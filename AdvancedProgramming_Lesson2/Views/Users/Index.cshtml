@@ -29,33 +29,41 @@
             <th>
                 @SharedLocalizer["Age"]
             </th>
+            <th>
+                @SharedLocalizer["Phone"]
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.Pseudo)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Name)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.RegisterDate)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Mail)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Age)
-    </td>
-    <td>
-        <a asp-action="Edit" asp-route-id="@item.Id">@SharedLocalizer["Edit"]</a> |
-        <a asp-action="Details" asp-route-id="@item.Id">@SharedLocalizer["Details"]</a> |
-        <a asp-action="Delete" asp-route-id="@item.Id">@SharedLocalizer["Delete"]</a>
-    </td>
-</tr>}
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pseudo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegisterDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">@SharedLocalizer["Edit"]</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">@SharedLocalizer["Details"]</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">@SharedLocalizer["Delete"]</a>
+            </td>
+        </tr>}
     </tbody>
 </table>

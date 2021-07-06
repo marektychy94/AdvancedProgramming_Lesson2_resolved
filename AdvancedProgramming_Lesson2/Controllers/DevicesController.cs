@@ -54,7 +54,7 @@ namespace AdvancedProgramming_Lesson2.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Type,Producer,Model,ReliableUser,Price,Ticket")] Devices devices)
+        public async Task<IActionResult> Create([Bind("ID,Type,Producer,Model,ReliableUser,Price,Ticket,Comments")] Devices devices)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace AdvancedProgramming_Lesson2.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Type,Producer,Model,ReliableUser,Price,Ticket")] Devices devices)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Type,Producer,Model,ReliableUser,Price,Ticket,Comments")] Devices devices)
         {
             if (id != devices.ID)
             {
