@@ -1,0 +1,67 @@
+﻿@model IEnumerable<AdvancedProgramming_Lesson2.Models.Devices>
+@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Globalization
+@using Microsoft.AspNetCore.Localization;
+
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@{ ViewData["Title"] = @SharedLocalizer["Devices base"]; }
+
+<h1>@SharedLocalizer["Devices base"]</h1>
+
+<p>
+    <a asp-action="Create">@SharedLocalizer["Create new record"]</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @SharedLocalizer["Type"]
+            </th>
+            <th>
+                @SharedLocalizer["Producer"]
+            </th>
+            <th>
+                @SharedLocalizer["Model"]
+            </th>
+            <th>
+                @SharedLocalizer["Reliable user"]
+            </th>
+            <th>
+                @SharedLocalizer["Price"]
+            </th>
+            <th>
+                @SharedLocalizer["Ticket"]
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Type)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Producer)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Model)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ReliableUser)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Price)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Ticket)
+    </td>
+    <td>
+        <a asp-action="Edit" asp-route-id="@item.ID">@SharedLocalizer["Edit"]</a> |
+        <a asp-action="Details" asp-route-id="@item.ID">@SharedLocalizer["Details"]</a> |
+        <a asp-action="Delete" asp-route-id="@item.ID">@SharedLocalizer["Delete"]</a>
+    </td>
+</tr>}
+    </tbody>
+</table>

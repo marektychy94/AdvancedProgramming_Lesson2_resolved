@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Globalization
+@using Microsoft.AspNetCore.Localization;
+
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+
+@{
+    ViewData["Title"] = @SharedLocalizer["About"];
+}
+
+<h1>
+    @SharedLocalizer["We are students: Marek, Asia and Patrycja"]</h1>
+<h2>@SharedLocalizer["We try learn about Advanced Programming at WSB Chorzów"]</h2>
+<h3>@SharedLocalizer["For expand this excersise we add another translations. Default Polish, English, German and additional language: Italian, Spanish and French"]</h3>

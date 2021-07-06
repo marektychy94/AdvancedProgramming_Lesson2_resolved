@@ -1,0 +1,53 @@
+﻿@model AdvancedProgramming_Lesson2.Models.Users
+@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Globalization
+@using Microsoft.AspNetCore.Localization;
+
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@{ ViewData["Title"] = @SharedLocalizer["Delete User"]; }
+
+<h1>@SharedLocalizer["Deleting..."]</h1>
+
+<h3>@SharedLocalizer["Are you sure about that?"]</h3>
+<div>
+    <h4>@SharedLocalizer["User"]</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @SharedLocalizer["Pseudo"]
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pseudo)
+        </dd>
+        <dt class="col-sm-2">
+            @SharedLocalizer["Name"]
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @SharedLocalizer["Register date"]
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RegisterDate)
+        </dd>
+        <dt class="col-sm-2">
+            @SharedLocalizer["Mail"]
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Mail)
+        </dd>
+        <dt class="col-sm-2">
+            @SharedLocalizer["Age"]
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="@SharedLocalizer["Delete"]" class="btn btn-danger" /> |
+        <a asp-action="Index">@SharedLocalizer["Back to the list"]</a>
+    </form>
+</div>
